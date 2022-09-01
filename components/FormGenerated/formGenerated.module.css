@@ -1,0 +1,29 @@
+.label {
+    text-transform: capitalize;
+}
+.formGeneratedContent {
+    display: flex;
+    margin-top: 2em;
+    background-color: #FFFFFF;
+    padding: 3em;
+    width: 100%;
+    border-radius: 9px;
+    border: 1px solid #c9c9c9;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.formGeneratedContent h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.inputGroup {
+    margin-bottom: 1em;
+    width: 48%
+}
+.formGeneratedContent div.inputGroup:first-of-type{
+    width: 100%
+}
+.buttonUpload {
+    margin-top: 1em;
+}
